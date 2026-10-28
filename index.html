@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<link rel="manifest" href="manifest.json">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEPRODI MEN AND WOMEN</title>
@@ -555,5 +555,10 @@
         function openGuideModal() { document.getElementById('guide-modal').classList.remove('hidden'); }
         function closeGuideModal() { document.getElementById('guide-modal').classList.add('hidden'); }
     </script>
+    <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('pwabuilder-sw.js');
+  }
+</script>
 </body>
 </html>
