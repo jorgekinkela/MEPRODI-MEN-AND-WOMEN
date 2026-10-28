@@ -1,14 +1,22 @@
 {
-  "background_color": "#3d3f51",
-  "dir": "ltr",
-  "display": "standalone",
   "name": "MEPRODI MEN AND WOMEN",
-  "orientation": "any",
-  "scope": "/",
   "short_name": "MEPRODI",
-  "start_url": "/",
-  "theme_color": "#ffffff",
-  "id": "/team-operations-tracker/",
-  "description": "Daily attendance and event management app for MEPRODI",
-  "lang": "en"
+  "start_url": "/MEPRODI-MEN-AND-WOMEN/",
+  "id": "/MEPRODI-MEN-AND-WOMEN/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "description": "Daily attendance and event management app for MEPRODI.",
+  "icons": [
+    {
+      "src": "https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4dd.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4dd.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
