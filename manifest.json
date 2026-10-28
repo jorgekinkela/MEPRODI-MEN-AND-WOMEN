@@ -1,0 +1,14 @@
+{
+  "background_color": "#3d3f51",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "MEPRODI MEN AND WOMEN",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "MEPRODI",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "id": "/team-operations-tracker/",
+  "description": "Daily attendance and event management app for MEPRODI",
+  "lang": "en"
+}
